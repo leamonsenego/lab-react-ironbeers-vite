@@ -1,0 +1,33 @@
+body{
+  font-family: Avenir;
+}
+
+.home-nav-wrapper{
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-nav-element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: 10px;
+}
+
+.home-nav-links{
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.home-nav-links:hover{
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 10px;
+}
